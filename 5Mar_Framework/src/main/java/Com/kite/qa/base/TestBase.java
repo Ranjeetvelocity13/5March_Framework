@@ -28,7 +28,7 @@ public class TestBase {
 	
 	public TestBase() throws IOException {
 		
-		
+		System.out.println("Hello");
 		props = new Properties();
 		
 		FileInputStream ip =  new FileInputStream("C:\\Users\\RKENDRE\\eclipse-workspace\\"
